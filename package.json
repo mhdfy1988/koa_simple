@@ -1,7 +1,7 @@
 {
   "name": "koa_simple",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a simple koa demo",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
@@ -10,9 +10,9 @@
     "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node --inspect src/index.js",
     "clean": "rimraf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["koa"],
+  "author": "mhdfy1988",
+  "license": "MIT",
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "koa": "^2.13.0",
